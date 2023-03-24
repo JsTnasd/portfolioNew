@@ -1,0 +1,281 @@
+html {
+    background-color: #23283e;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    color: #cdcdff;
+    position: absolute;
+}
+
+.link {
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: background-size 700ms ease-in-out;
+    background-image: linear-gradient(90deg, #cdcdff, #90a0d9);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+a {
+    color: #bdbddd;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-size: 100% 3px;
+}
+
+.presentation {
+    font-size: 70px;
+    top: 80px;
+}
+
+.presentation span {
+    color: #90a0d9;
+}
+
+.stack {
+    font-size: 40px;
+    top: 250px;
+}
+
+ul li {
+    font-size: 20px;
+    color: #bdbddd;
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+    top: 50px;
+}
+
+.jd {
+    color: #90a0d9;
+    width: 90%;
+    text-align: right;
+    font-size: 30px;
+    top: -5px;
+    position: absolute;
+}
+
+.text {
+    width: 100%;
+    font-size: 15px;
+    top: 350px;
+}
+
+button {
+    background-color: #23283e;
+    border: none;
+    color: #90a0d9;
+    font-size: 20px;
+    top: 500px;
+    position: absolute;
+}
+
+.github {
+    right: 580px;
+}
+
+.discord {
+    right: 485px;
+}
+
+.subProject, .subSkills {
+    top: 600px;
+    font-size: 30px;
+    scroll-margin-top: 50px;
+}
+
+.subSkills {
+    top: 1200px;
+}
+
+.buttons {
+    color: #90a0d9;
+    position: absolute;
+    top: 430px;
+    font-size: 20px;
+
+}
+
+.cuadrados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: transform 1s ease;
+}
+
+.cuadrado {
+    background-color: #23283e;
+    border: 1px solid #202539;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.39), 0 16px 24px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 380px;
+    position: relative;
+    top: 550px;
+    transition: transform 1s ease;
+}
+
+.cuadrado:hover {
+    transform: translateY(-10px)
+}
+  
+.derecha {
+    margin-left: auto;
+  }
+  
+.izquierda {
+    margin-right: auto;
+  }
+
+.tituloCuadrado {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.descCuadrado {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    top: 1350px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #90a0d9;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    top: 600px;
+}
+
+.css {
+    left: 100px;
+}
+
+.html {
+    left: -100px;
+}
+
+.js {
+    left: 200px;
+}
+
+.node {
+    left: -200px;
+}
+
+.discord {
+    left: 320px;
+}
+
+.git {
+    left: -300px;
+}
+
+#gitCuadrado {
+    font-size: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #23283e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d45b3;
+    border-radius: 10px;
+} 
+
+/*
+Media
+*/
+
+@media (max-width: 600px) {
+ul li {
+    font-size: 15px;
+}
+.jd {
+    font-size: 20px;
+    left: -15px;
+}
+.presentation {
+    font-size: 30px;
+}
+.stack {
+    font-size: 20px;
+    top: 150px;
+}
+.text {
+    font-size: 10px;
+    top: 200px;
+}
+.github {
+    top: 250px
+}
+.derecha {
+    position: absolute;
+    margin-top: 750px;
+}
+.izquierda {
+    position: absolute;
+    margin-top: 1170px;
+}
+.subSkills {
+    top: 2100px;
+    position: absolute;
+}
+.cuadrado {
+    width: 240px;
+    height: 280px;
+}
+footer {
+    top: 2400px;
+}
+.btn {
+    font-size: 15px;
+    left: 0;
+}
+.css {
+    top: 1300px;
+}
+
+.html {
+    top: 1320px;
+}
+
+.js {
+    top: 1340px;
+}
+
+.node {
+    top: 1360px;
+}
+
+.discord {
+    top: 1380px;
+}
+
+.git {
+    top: 1400px;
+}
+}
+
