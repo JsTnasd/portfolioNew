@@ -254,6 +254,9 @@ footer {
     font-size: 15px;
     left: 0;
 }
+.mongo {
+    top: 1280px;
+}
 .css {
     top: 1300px;
 }
